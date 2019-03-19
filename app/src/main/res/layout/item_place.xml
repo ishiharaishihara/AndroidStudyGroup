@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="wrap_content"
+                                             android:layout_height="wrap_content">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" android:baselineAligned="false" android:contentDescription=""/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/placeNameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5" android:text="@string/no_title"
+                    android:gravity="start|center_vertical" android:textColor="@color/greyish_brown"
+                    android:paddingLeft="@dimen/item_text_padding_lr"
+                    android:paddingRight="@dimen/item_text_padding_lr"/>
+            <TextView
+                    android:id="@+id/cityNameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5" android:text="@string/no_place"
+                    android:textColor="@color/brownish_grey" android:paddingLeft="@dimen/item_text_padding_lr"
+                    android:paddingRight="@dimen/item_text_padding_lr"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

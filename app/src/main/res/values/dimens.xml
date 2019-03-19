@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_text_padding_lr">8dp</dimen>
+    <dimen name="item_text_padding_tb">8dp</dimen>
+    <dimen name="title_textsize">16sp</dimen>
+    <dimen name="subtitle_textsize">13sp</dimen>
+    <dimen name="frame_padding">8dp</dimen>
+    <dimen name="frame_border_width">2dp</dimen>
+    <dimen name="button_radius">8dp</dimen>
+</resources>

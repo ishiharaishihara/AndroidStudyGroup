@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="no_title">不明なタイトル</string>
+    <string name="no_place">不明な場所</string>
+    <string name="description">説明</string>
+    <string name="back">戻る</string>
+    <string name="view_map">マップ表示</string>
+</resources>
